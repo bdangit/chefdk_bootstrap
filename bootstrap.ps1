@@ -77,7 +77,7 @@ function Install-Project {
   $berksfile = @"
   source 'https://supermarket.chef.io'
 
-  cookbook '$bootstrapCookbook', git: "https://github.com/bdangit/chefdk_bootstrap.git", branch: "fix-temp-for-powershell"
+  cookbook '$bootstrapCookbook', git: 'https://github.com/bdangit/chefdk_bootstrap.git', branch: 'fix-temp-for-powershell'
 "@
 
   $chefConfig = @"
