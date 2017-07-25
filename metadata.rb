@@ -25,7 +25,7 @@ supports 'mac_os_x'
 
 depends 'atom', '~> 0.2.0'
 depends 'chocolatey', '~> 1.0'
-depends 'homebrew', '~> 2.0'
+depends 'homebrew', '~> 4.2'
 depends 'line', '~> 0.6'
 depends 'vagrant', '~> 0.5'
 depends 'windows', '~> 1.39'
